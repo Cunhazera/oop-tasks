@@ -1,4 +1,4 @@
-package com.task.operation;
+package com.task.repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
