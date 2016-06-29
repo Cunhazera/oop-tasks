@@ -1,4 +1,4 @@
-package com.task.operation.test;
+package com.task.repository;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;

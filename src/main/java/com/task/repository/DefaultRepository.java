@@ -15,7 +15,7 @@ public class DefaultRepository {
 
 	@PersistenceContext
 	private EntityManager manager;
-
+	
 	public Task save(Task task) {
 		manager.persist(task);
 		return task;
