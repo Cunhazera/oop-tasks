@@ -15,7 +15,7 @@
 
 [Just click here](http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.tar.gz)
 
-Go to the folder where you saved the WildFly server and give it the permission to run: `chmod +x folder`
+Go to the folder where you saved the WildFly server and give it the permission to run: `chmod -R +x folder`
 
 ### 3) Clone the project
 
