@@ -1,5 +1,6 @@
 package com.task.service;
 
+import java.util.List;
 import java.util.Set;
 
 import javax.ejb.Stateless;
@@ -23,6 +24,27 @@ public class TaskService {
 	public Task save(Task task) throws TaskException {
 		validate(task);
 		return repository.save(task);
+	}
+
+	public Task edit(Task task) throws TaskException {
+		validate(task);
+		return repository.edit(task);
+	}
+
+	public void delete(Long id) {
+		repository.delete(id);
+	}
+
+	public List<Task> selectAll() {
+		return repository.listAll();
+	}
+
+	public Task findById(Long id) {
+		return repository.findById(id);
+	}
+
+	public List<Task> getOverdueTasks() {
+		return repository.getOverdue();
 	}
 
 	private Task validate(Task task) throws TaskException {
