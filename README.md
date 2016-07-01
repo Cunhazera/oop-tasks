@@ -83,7 +83,7 @@ curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/task/{id}
 ```
 
-### Get overdue tasks:
+### Delete tasks:
 
 ```shell
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/task/overdue
