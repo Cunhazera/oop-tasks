@@ -44,7 +44,7 @@ public class DefaultRepository {
 	}
 
 	public void delete(Long id) {
-		new JPADeleteClause(manager, qTask).where(qTask.id.eq(id));
+		new JPADeleteClause(manager, qTask).where(qTask.id.eq(id)).execute();
 	}
 
 	public JPAQuery<Task> createQuery() {
