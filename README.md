@@ -32,7 +32,6 @@ mvn clean install
 
 When the maven command ends, it generates a file called `task-0.0.1-SNAPSHOT.war`, so you have to copy it to the server
 
-cd into the target folder inside the `oop-tasks` folder
 
 `cp /target/task-0.0.1-SNAPSHOT.war ~/wildfly-10.0.0.Final/standalone/deployments/`
 
@@ -83,13 +82,13 @@ curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/task/{id}
 ```
 
-### Delete tasks:
+### Get overdue tasks:
 
 ```shell
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/task/rest/task/overdue
 ```
 
-### Get overdue tasks:
+### Delete tasks:
 
 ```shell
 curl -H "Content-Type: application/json" -X DELETE http://localhost:8080/task/rest/task/delete/{id}
