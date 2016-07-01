@@ -42,7 +42,7 @@ public class TaskResource {
 	public List<Task> getAll() {
 		return service.selectAll();
 	}
-	
+
 	@GET
 	@Path("overdue")
 	public List<Task> getOverdue() {
