@@ -65,6 +65,8 @@ curl -H "Content-Type: application/json" -X POST -d '{"name":"Nome","dateFinish"
 
 ### Edit task:
 
+Just know one thing: the app uses the `id` from JSON to edit the Task.
+
 ```shell
 curl -H "Content-Type: application/json" -X PUT -d '{"id":"1","name":"NameToEdit","dateFinish":"2014-09-09", "done":"false"}' http://localhost:8080/task/rest/task/edit
 ```
