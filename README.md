@@ -56,6 +56,8 @@ Run the standalone script: `./standalone.sh`
  - http://localhost:8080/task/rest/task/delete/{id} (Delete task by id)
 
 <br>
+
+
 ### Create new task:
 
 ```shell
