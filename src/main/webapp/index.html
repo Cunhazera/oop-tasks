@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/foundation.css">
+    <script type="text/javascript" src="./assets/javascript/jquery.min.js" charset="UTF-8"></script>
+</head>
+<body>
+    <form>
+        <div class="row" align="center" style="padding-top:60px">
+            <div class="large-6 large-centered columns" style="padding-top:60px">
+                <div class="row" id="infos">
+                    <div class="large-4 columns">
+                        <label>Nome *
+                            <input type="text" id="name" required/>
+                        </label>
+                    </div>
+                    <div class="large-4 columns">
+                        <label>Data de término *
+                            <input type="text" id="dataTermino" required/>
+                        </label>
+                    </div>
+                    <div class="large-4 columns">
+                        <label>Feito *
+                            <select id="feito">
+                                <option value=""></option>
+                                <option value="Sim">Sim</option>
+                                <option value="Nao">Nao</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <input type="button" id="submit" value="Criar">
+            </div>
+        </div>
+    </form>
+
+    <ul id="tasks">
+        
+    </ul>
+
+</body>
+<script type="text/javascript" src="./assets/javascript/main.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./assets/javascript/notify.js" charset="UTF-8"></script>
+</html>

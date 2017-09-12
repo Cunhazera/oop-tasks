@@ -1,0 +1,32 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    background-image: url("../../resources/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.main-form {
+    background-color: white;
+    box-shadow: 2px 5px 10px #333;
+    padding: 20px;
+}
+
+input[type=button] {
+    border-radius: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    background-color: #006485
+}

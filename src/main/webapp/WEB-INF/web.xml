@@ -6,7 +6,7 @@
 
 	<display-name>OOP Class</display-name>
 	<welcome-file-list>
-		<welcome-file>/assets/index.html</welcome-file>
+		<welcome-file>/index.html</welcome-file>
 	</welcome-file-list>
 	<servlet-mapping>
 		<servlet-name>javax.ws.rs.core.Application</servlet-name>
