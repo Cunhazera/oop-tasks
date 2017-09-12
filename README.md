@@ -47,6 +47,7 @@ Run the standalone script: `./standalone.sh`
 <br>
 
 <br>
+
 ## App EndPoints
 
  - http://localhost:8080/task/rest/task/new (New task)
@@ -63,6 +64,8 @@ Run the standalone script: `./standalone.sh`
 ```shell
 curl -H "Content-Type: application/json" -X POST -d '{"name":"Nome","dateFinish":"2016-09-09", "done":"false"}' http://localhost:8080/task/rest/task/new
 ```
+
+Or access: http://localhost:8080/task/index.html
 
 ### Edit task:
 
